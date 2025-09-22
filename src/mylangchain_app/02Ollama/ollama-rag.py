@@ -8,7 +8,7 @@
 
 import streamlit as st
 from langchain_community.document_loaders import PDFPlumberLoader
-from langchain_text_splitters import SemanticChunker
+from langchain_experimental.text_splitter import SemanticChunker
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
 from langchain_ollama import ChatOllama
